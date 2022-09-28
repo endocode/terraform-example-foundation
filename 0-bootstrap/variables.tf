@@ -67,7 +67,7 @@ variable "project_prefix" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created. Should be the same in all steps."
   type        = string
-  default     = "fldr"
+  default     = "folder" # changed it here because after removal of the folder, the name was still reserved
 }
 
 variable "bucket_prefix" {
