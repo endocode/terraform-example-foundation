@@ -105,6 +105,8 @@ gcloud scc notifications describe <scc_notification_name> --organization=<org_id
 | gcp_scc_admin | Product Updates and Security | Org Admins |
 | gcp_security_reviewer | Security and Technical | Org Admins |
 
+
+Note: granted  "roles/iam.serviceAccountTokenCreator" to serivce accout:terraform-org-sa
 ### Deploying with Cloud Build
 
 1. Clone the policy repo based on the Terraform output from the previous section.
